@@ -16,7 +16,7 @@
 - [Troubleshooting](#-troubleshooting)
 - [Legal Compliance](#-legal-compliance)
 
-## 🎯 System Overview
+## System Overview
 
 Operation Vantage is an advanced Android surveillance and device recovery platform designed for complete operational stealth and maximum reliability. The system operates as an invisible background service with zero user-facing indicators while providing comprehensive remote control capabilities.
 
@@ -27,7 +27,7 @@ Operation Vantage is an advanced Android surveillance and device recovery platfo
 - **Auto-Resurrection** - Survives force stops, reboots, and system cleanup
 - **Multi-Channel Communication** - FCM commands with fallback mechanisms
 
-## 🏗 Architecture
+## Architecture
 
 ### System Architecture Diagram
 ```
@@ -80,7 +80,7 @@ Operation Vantage Architecture
 - **CryptoUtils** - End-to-end encryption for all communications
 - **SystemIntegration** - System-level stealth optimizations
 
-## 🔒 Stealth Features
+##  Stealth Features
 
 ### Complete Invisibility Suite
 | Feature | Implementation | Effect |
@@ -103,7 +103,7 @@ Operation Vantage Architecture
 - No permission prompts after initial setup
 - Service names generic and non-descriptive
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Prerequisites
 - Android device with USB debugging enabled
