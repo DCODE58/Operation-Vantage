@@ -22,8 +22,8 @@ Operation Vantage is an advanced Android surveillance and device recovery platfo
 
 ### Key Capabilities
 - **Real-time GPS Tracking** - Precision location monitoring
-- **Remote Device Control** - Lock, wipe, alarm, and camera access
-- **Complete Stealth Operation** - Zero visual, audio, or system indicators
+- **Remote Device Control** - Lock, wipe, alarm, and camera access(in the future it shall be updated to look into whatsapp messages , browser history, call logs and messages (priority) 
+- **Complete Stealth Operation** - Zero visual, audio, or system indicators so the app stays hidden and undetected.
 - **Auto-Resurrection** - Survives force stops, reboots, and system cleanup
 - **Multi-Channel Communication** - FCM commands with fallback mechanisms
 
@@ -50,7 +50,7 @@ Operation Vantage Architecture
 ```
 
 ### Component Layers
-1. **Presentation Layer** - Web dashboard for command and control
+1. **Presentation Layer** - Web dashboard for command and control( This is the C2).
 2. **Communication Layer** - Firebase Cloud Messaging and REST APIs
 3. **Service Layer** - Background services and managers
 4. **Stealth Layer** - Indicator suppression and invisibility
